@@ -2,7 +2,30 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav{
+    text-align: right;
+}
+
 .menu-item{
     font-size: 13px;
     color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    position: relative;
+    top: -18px;
+    margin-right: 16px;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+#dropdown-menu{
+    position: relative;
+    top: -10px;
+    margin-right: 16px;
+}
+
+#profile-pic{
+    width: 48px;
+    height: 48px;
 }
